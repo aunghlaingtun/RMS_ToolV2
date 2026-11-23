@@ -23,7 +23,7 @@ with st.sidebar:
     st.button("Start new analysis (clear all data)", on_click=reset_all, type="primary", key="reset_sidebar", use_container_width=True)
     st.header("About")
     st.write("Upload the log exports from your Rotork Master Station (Side A and/or Side B) and get a ranked list of problems to check.")
-    st.link_button("Rotork Master Station (rotork.com)", "https://www.rotork.com/products-and-services/control-networks/master-station")
+    st.link_button("Rotork Master Station (rotork.com)", "https://www.rotork.com/en/products/master-station-networks-protocols")
     st.caption("REMARK! This is an unofficial tool, not made or endorsed by ROTORK. Just use it as a guide for where to look, then confirm on the Rotork Masterstation (RMS) and in the field. "
                "If hosted on a cloud service, uploaded files are processed on that service's servers - Remember to follow your company's data policy.")
 
